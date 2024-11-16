@@ -1,0 +1,109 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: aqua;
+  background: rgb(238, 174, 202);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+.container {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.frame {
+  border: 5px solid black;
+  width: 288px;
+  height: 96vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #080c15, #508cf5); */
+  /* background: linear-gradient(120deg, #00c6ff, #0072ff); */
+  background: linear-gradient(#7525d0, #000000f0, #601eab);
+  color: white;
+  overflow: auto;
+}
+
+.outputss {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 210px;
+  background-color: black;
+  color: white;
+  border: 2px solid #7525d0;
+}
+.submitss{
+  padding: 7px;
+  cursor: pointer;
+  width: 160px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  border: 2px solid #7525d0;
+  background-color: black;
+  color: white;
+  margin-bottom: 15px;
+}
+button:hover {
+  background-color: #601eab;
+  border: 2px solid gray;
+}
+.text ul {
+  position: relative;
+  background-color: black;
+  text-align: left;
+  padding: 10px;
+  margin-top:6px;
+  border-radius: 10px;
+  width: 250px;
+  border: 2px solid #7525d0;
+  display: flex;
+  align-items: center;
+}
+.text ul h1 {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: red;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+}
+img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    /* margin-bottom: 50px; */
+}
