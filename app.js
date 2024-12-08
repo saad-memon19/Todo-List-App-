@@ -1,5 +1,4 @@
 let inputs = document.getElementById("inp")
-
 let text = document.querySelector(".text")
 function add() {
     if (inputs.value == "") {
