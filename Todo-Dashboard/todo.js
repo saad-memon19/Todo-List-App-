@@ -17,5 +17,5 @@ function add() {
 }
 function logout() {
     localStorage.removeItem("currentLoggedinUser");
-    window.location = "./login-signup.html";
+    window.location = "../index.html";
 }
